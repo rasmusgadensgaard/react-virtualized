@@ -965,7 +965,7 @@ var Grid =
                           height: totalRowsHeight,
                           //maxWidth: totalColumnsWidth,
                           maxHeight: totalRowsHeight,
-                          overflow: 'hidden',
+                          //overflow: 'hidden',
                           pointerEvents: isScrolling ? 'none' : '',
                           position: 'relative',
                         },

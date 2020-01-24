@@ -4944,7 +4944,6 @@
                           {
                             height: totalRowsHeight,
                             maxHeight: totalRowsHeight,
-                            overflow: 'hidden',
                             pointerEvents: isScrolling ? 'none' : '',
                             position: 'relative',
                           },

@@ -1063,7 +1063,7 @@ class Grid extends React.PureComponent<Props, State> {
               height: totalRowsHeight,
               //maxWidth: totalColumnsWidth,
               maxHeight: totalRowsHeight,
-              overflow: 'hidden',
+              //overflow: 'hidden',
               pointerEvents: isScrolling ? 'none' : '',
               position: 'relative',
               ...containerStyle,
