@@ -1059,9 +1059,9 @@ class Grid extends React.PureComponent<Props, State> {
             className="ReactVirtualized__Grid__innerScrollContainer"
             role={containerRole}
             style={{
-              width: autoContainerWidth ? 'auto' : totalColumnsWidth,
+              //width: autoContainerWidth ? 'auto' : totalColumnsWidth,
               height: totalRowsHeight,
-              maxWidth: totalColumnsWidth,
+              //maxWidth: totalColumnsWidth,
               maxHeight: totalRowsHeight,
               overflow: 'hidden',
               pointerEvents: isScrolling ? 'none' : '',
